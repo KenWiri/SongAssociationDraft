@@ -1,0 +1,60 @@
+body {
+	text-align: center;
+	color:white;
+}
+
+.jumbotron {
+    padding: 0.5rem 2rem;
+}
+.jumbotron {
+	background-image: url("image/mic.jpg");
+}
+#output {
+	font-size: 80px;
+	color:Green;
+}
+
+p {
+	margin-top: 10px;
+}
+
+.btn-primary {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.ten-second {
+	font-size: 30px;
+	font-weight: bold;
+	color:red;
+}
+
+.navbar {
+	margin-left: 10px;
+}
+
+.navbar-light .navbar-brand {
+	color:blue;
+}
+
+#countdown {
+	font-size: 150px;
+	color:red;
+	margin: -20px;
+    animation:blinkingText 1s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: red;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: white;    }
+}
+}
+
+.draft {
+	font-size: 10px;
+	color:red;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Song Association Game</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  	<a class="navbar-brand" href="#">KEN's Studio</a>
+  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+ 
+ 	 </button>
+	  	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	   	 <div class="navbar-nav">
+	   	 <a class="nav-item nav-link" href="#">Portfolio</a>
+	   	 <a class="nav-item nav-link" href="#">About Me</a>
+	  	  </div>
+	  	</div>
+	</nav>
+	<div class="jumbotron">
+	  	<h1 class="display-4">Song Association</h1>
+	  	<p class="lead">You will be given a random word and you will have only <span class="ten-second">10</span> seconds to sing that word in a song.</p>
+	 	 <button type="submit" class="btn btn-primary btn-lg" onclick="refreshPage()">Pick a Word</button>
+	 	<h2>The word is: <span id="output"></h2>
+		<span id="countdown"></span>>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
